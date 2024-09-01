@@ -26,7 +26,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-
 # urlpatterns = [
 #    path('', views.index),
 #    path('articles/', include('hexlet_django_blog.article.urls')),  # <- новая строчка

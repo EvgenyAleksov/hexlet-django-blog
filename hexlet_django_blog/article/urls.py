@@ -5,7 +5,3 @@ from hexlet_django_blog.article.views import IndexView
 urlpatterns = [
     path('', IndexView.as_view()),
 ]
-
-# urlpatterns = [
-#    path('', views.index),
-# ]

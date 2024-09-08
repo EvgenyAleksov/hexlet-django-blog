@@ -18,13 +18,9 @@ class HomePageView(TemplateView):
 
 
 def about(request):
-    tags = ['обучение', 'программирование', 'python', 'oop']
+    tags = ['Обучение', 'Программирование', 'Python', 'OOP']
     return render(
         request,
         'about.html',
         context={'tags': tags},
     )
-
-
-# def about(request):
-#    return render(request, 'about.html')

@@ -11,12 +11,6 @@ class HomePageView(TemplateView):
         return context
 
 
-# def index(request):
-#    return render(request, 'articles/index.html', context={
-#        'who': 'World',
-#    })
-
-
 def about(request):
     tags = ['Обучение', 'Программирование', 'Python', 'OOP']
     return render(
